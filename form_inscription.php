@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login</title>
+	<title>Inscription</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -32,8 +32,8 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="login100-form" action="traitement_co.php" method="post">
-
+				<form class="login100-form" action="traitement_inscription.php" method="post">
+                       <center> <h2>Inscription<h2></center><br>
 					<span class="login100-form-title p-b-48">
 						<img src="images/logo.jpg" alt="Logo Agence Automobile Ardennaise" height="100px" style="top:3px;">
 					</span>
@@ -59,8 +59,6 @@
 							</button>
 						</div>
 					</div>
-					<br><br>
-					<center><a href="form_inscription.php">Inscription</a></center>
 				</form>
 			</div>
 		</div>
