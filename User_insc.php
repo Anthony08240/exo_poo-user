@@ -16,15 +16,15 @@ protected $_pass;
     public function getPass(){
       return $this->_pass;
     }
-
     public function connect($bdd){
         $sql = $bdd->prepare("INSERT INTO user ( email, pass )
-                        VALUES ( :email, :pass )");
+                        VALUES ( :email, :pass, )");
 
   $sql->execute(array(
       ":email" => $this->_email,
-      ":pass" => $this->_pass
+      ":pass" => $this->_pass,
   ));
+  
 
   if($email == $this->email)
   {

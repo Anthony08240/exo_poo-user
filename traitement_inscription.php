@@ -8,7 +8,6 @@ require_once('User_insc.php');
 $email = !empty($_POST['email']) ? $_POST['email'] : NULL;
 $pass = !empty($_POST['pass']) ? $_POST['pass'] : NULL;
 
-
 $user1 = new User_insc($email, $pass);
 
 $user1 -> connect($bdd);
